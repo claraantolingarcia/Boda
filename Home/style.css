@@ -1,0 +1,29 @@
+body {
+    background: url(home2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#infoHome {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    top: 50%;
+    text-align: center;
+}
+
+#description, #date {
+    font-family: "Brush Script MT";
+    font-weight: lighter;
+    font-size: 40px;
+    align-content: center;
+    color: #DAA520;
+    justify-content: center;
+    align-content: center;
+}
+
+#date {
+    font-size: 25px;
+}
