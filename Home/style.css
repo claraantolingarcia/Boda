@@ -1,5 +1,5 @@
 body {
-    background: url(home2.jpg);
+    background: url(../images/home2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,8 @@ body {
     font-weight: lighter;
     font-size: 40px;
     align-content: center;
-    color: #DAA520;
+    /*color: #DAA,520;*/
+    color: #8B4513;
     justify-content: center;
     align-content: center;
 }
@@ -27,3 +28,23 @@ body {
 #date {
     font-size: 25px;
 }
+
+.top_menu ul {
+    list-style:none;
+}
+
+.top_menu ul li {
+    float:left;
+    margin-right:20px;
+    margin-bottom:10px;
+    background: transparent;
+    padding:5px;
+}
+
+.top_menu ul li a {
+    font-family: "Brush Script MT";
+    font-size: 25px;
+    color: #8B4513;
+    text-decoration:none;
+}
+
