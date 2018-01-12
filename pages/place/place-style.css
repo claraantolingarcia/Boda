@@ -1,5 +1,28 @@
-#description-place {
+.description-place {
     font-family: 'Italianno', cursive;
-    font-size: 50px;
+    font-size: 40px;
+    text-align: justify;
     color: #8B4513;
+    float:left;
+}
+
+.map-place {
+    border: 0;
+    float: right;
+}
+
+#map {
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 1px solid #8B4513;
+}
+
+#info-place .description-place, #info-place .map-place {
+    width: 40%;
+    padding: 5%;
+}
+
+#info-place {
+    width: 100%;
 }
