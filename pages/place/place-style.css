@@ -1,9 +1,43 @@
+.my-container {
+    font-family: 'Italianno', cursive;
+    font-size: 40px;
+    text-align: justify;
+    color: #8B4513;
+    float:left;
+    width: 50%;
+    padding: 3%;
+    padding-top: 5%;
+}
+
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url('../../images/image-place-mini.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 .description-place {
     font-family: 'Italianno', cursive;
     font-size: 40px;
     text-align: justify;
     color: #8B4513;
     float:left;
+    width: 50%;
+    padding: 3%;
+    padding-top: 5%;
 }
 
 .map-place {
@@ -25,4 +59,5 @@
 
 #info-place {
     width: 100%;
+    opacity: 1.0;
 }
