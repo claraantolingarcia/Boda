@@ -5,23 +5,38 @@
     <meta charset="UTF-8">
     <meta name="title" content="Boda Dani y Clara">
     <meta name="description" content="Página con la información de nuestra boda"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel=StyleSheet href="menu/css/menu-style.css" type="text/css" media=screen>
     <link rel=StyleSheet href="menu/css/index-style.css" type="text/css" media=screen>
-    <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
+    <link rel="StyleSheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="home/bootstrap.css" rel="stylesheet">
-    <script src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/bootstrap.js"></script>  
-    <nav class="top-menu">
-        <ul>
-            <li><a href="pages/wedding-place/wedding-place.html">¿Dónde nos casamos?</a></li>
-            <li><a href="pages/restaurant/restaurant.html">Banquete</a></li>
-            <li><a href="pages/transport/transport.html">Formas de llegar</a></li>
-            <li><a href="pages/wedding-list/wedding-list.html">Lista de boda</a></li>
-            <li><a href="pages/accommodation/accommodation.html">Alojamiento</a></li>
-        </ul>
-    </nav>
+    <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>  
   <body class="background-image">
+    <nav class="top-menu navbar">
+        <div>
+            <div>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar line"></span>
+                <span class="icon-bar line"></span>
+                <span class="icon-bar line"></span>                        
+              </button>
+            </div>
+            <div class="collapse navbar-collapse bg-nav" id="myNavbar">
+              <ul class="nav navbar-nav">
+                  <li><a href="pages/wedding-place/wedding-place.html">¿Dónde nos casamos?</a></li>
+                  <li><a href="pages/restaurant/restaurant.html">Banquete</a></li>
+                  <li><a href="pages/transport/transport.html">Formas de llegar</a></li>
+                  <li><a href="pages/wedding-list/wedding-list.html">Lista de boda</a></li>
+                  <li><a href="pages/accommodation/accommodation.html">Alojamiento</a></li>
+              </ul>
+            </div>
+        </div>
+    </nav>
     <div class="info">
         <p1 id="description-home">¡Nos casamos!<br>Daniel y Clara <br></p1>
         <p1 id="date">11 - Mayo - 2019</p1>
