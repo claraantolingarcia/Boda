@@ -15,17 +15,12 @@
     -webkit-background-size: cover;
     background-size: cover;
 }
-    
-.info-block {
-    float:left;
-}
 
 .description-place {
     font-family: 'Italianno', cursive;
     font-size: 40px;
     text-align: justify;
     color: #8B4513;
-    float:left;
     width: 50%;
     padding: 3%;
     padding-top: 5%;
