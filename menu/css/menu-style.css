@@ -8,6 +8,11 @@
     margin-bottom:10px;
     background: transparent;
     padding:5px;
+    border-bottom: 3px solid transparent; 
+}
+
+.top-menu ul li:hover {
+    border-bottom: 1.1px solid #8B4513; 
 }
 
 .top-menu ul li a {
