@@ -57,12 +57,12 @@ body {
     border-bottom: 3px solid transparent; 
 }
 
-.top-menu ul li:hover {
-    border-bottom: 1.1px solid #8B4513;
-}
-
 .top-menu ul li:hover a {
     background: transparent;
+}
+
+.top-menu ul li a:hover {
+    border-bottom: 1.1px solid #8B4513;
 }
 
 .top-menu ul li a {
@@ -96,6 +96,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.selected {
+    border-bottom: 1.1px solid #8B4513;
+}
+
 /*******************************************************************************************************************
                                         MAIN PAGE
 *******************************************************************************************************************/
@@ -108,6 +112,9 @@ body {
     font-size: 40px;
 }
 
+.description-home {
+    font-size: 70px;
+}
 
 /*******************************************************************************************************************
                                         ACCOMMODATION
