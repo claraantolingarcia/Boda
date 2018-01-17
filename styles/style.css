@@ -2,6 +2,10 @@
                                         ESTILOS GENERALES
 *******************************************************************************************************************/
 
+body {
+    overflow: hidden;
+    height: 100%;
+}
 
 .background-image {
     background: url(../images/background.jpg);
@@ -11,31 +15,13 @@
     background-attachment: fixed;
 }
 
-body {
-    overflow: hidden;
-    height: 100%;
-}
-
-.info {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
-#description-home, #date {
+.default-text {
     font-family: 'Italianno', cursive;
-    font-size: 80px;
+    font-size: 50px;
     align-content: center;
     color: #8B4513;
     justify-content: center;
     align-content: center;
-}
-
-#date {
-    font-size: 40px;
 }
 
 /*******************************************************************************************************************
@@ -64,13 +50,11 @@ body {
 }
 
 .top-menu ul li a {
-    font-family: 'Italianno', cursive;
     font-size: 35px;
     color: #8B4513;
-    text-decoration: none;
 }
 
-.line {
+.line-button {
     background-color: #8B4513;
 }
 
@@ -78,38 +62,49 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+/*******************************************************************************************************************
+                                        Main page
+*******************************************************************************************************************/
+
+.date-style {
+    font-size: 40px;
+}
+
 
 /*******************************************************************************************************************
                                         ACCOMMODATION
 *******************************************************************************************************************/
 
-#description-accommodation {
-    font-family: 'Italianno', cursive;
-    font-size: 50px;
-    color: #8B4513;
-}
 
 
 /*******************************************************************************************************************
                                         RESTAURANT
 *******************************************************************************************************************/
 
-#description-food-menu {
-    font-family: 'Italianno', cursive;
-    font-size: 50px;
-    color: #8B4513;
-}
 
 
 /*******************************************************************************************************************
                                         TRANSPORT
 *******************************************************************************************************************/
 
-#description-transport {
-    font-family: 'Italianno', cursive;
-    font-size: 50px;
-    color: #8B4513;
-}
 
 /*.map-place {
     border: 0;
@@ -128,11 +123,6 @@ body {
                                         WEDDING-LIST
 *******************************************************************************************************************/
 
-#description-wedding-list {
-    font-family: 'Italianno', cursive;
-    font-size: 50px;
-    color: #8B4513;
-}
 
 
 /*******************************************************************************************************************
@@ -157,11 +147,9 @@ body {
     background-size: cover;
 }
 
-.description-place {
-    font-family: 'Italianno', cursive;
+.info-place {
     font-size: 40px;
     text-align: justify;
-    color: #8B4513;
     width: 50%;
     padding: 3%;
     padding-top: 5%;
