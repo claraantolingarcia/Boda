@@ -1,0 +1,221 @@
+/*******************************************************************************************************************
+                                        ESTILOS GENERALES
+*******************************************************************************************************************/
+
+
+.background-image {
+    background: url(../images/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    overflow: hidden;
+    height: 100%;
+}
+
+.info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#description-home, #date {
+    font-family: 'Italianno', cursive;
+    font-size: 80px;
+    align-content: center;
+    color: #8B4513;
+    justify-content: center;
+    align-content: center;
+}
+
+#date {
+    font-size: 40px;
+}
+
+/*******************************************************************************************************************
+                                        MENU
+*******************************************************************************************************************/
+
+.top-menu ul {
+    list-style:none;
+}
+
+.top-menu ul li {
+    display: inline-block;
+    margin-right:20px;
+    margin-bottom:10px;
+    background: transparent;
+    padding:5px;
+    border-bottom: 3px solid transparent; 
+}
+
+.top-menu ul li:hover {
+    border-bottom: 1.1px solid #8B4513;
+}
+
+.top-menu ul li:hover a {
+    background: transparent;
+}
+
+.top-menu ul li a {
+    font-family: 'Italianno', cursive;
+    font-size: 35px;
+    color: #8B4513;
+    text-decoration: none;
+}
+
+.line {
+    background-color: #8B4513;
+}
+
+.bg-nav {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/*******************************************************************************************************************
+                                        ACCOMMODATION
+*******************************************************************************************************************/
+
+#description-accommodation {
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+    color: #8B4513;
+}
+
+
+/*******************************************************************************************************************
+                                        RESTAURANT
+*******************************************************************************************************************/
+
+#description-food-menu {
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+    color: #8B4513;
+}
+
+
+/*******************************************************************************************************************
+                                        TRANSPORT
+*******************************************************************************************************************/
+
+#description-transport {
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+    color: #8B4513;
+}
+
+/*.map-place {
+    border: 0;
+    float: right;
+}
+
+#map {
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 1px solid #8B4513;
+}
+*/
+
+/*******************************************************************************************************************
+                                        WEDDING-LIST
+*******************************************************************************************************************/
+
+#description-wedding-list {
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+    color: #8B4513;
+}
+
+
+/*******************************************************************************************************************
+                                        WEDDING-PLACE
+*******************************************************************************************************************/
+
+.bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/image-place-mini.jpg');
+    z-index: -1;
+    opacity: 0.6;    
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.description-place {
+    font-family: 'Italianno', cursive;
+    font-size: 40px;
+    text-align: justify;
+    color: #8B4513;
+    width: 50%;
+    padding: 3%;
+    padding-top: 5%;
+}
+
+.link-map {
+    font-size: 25px;
+    padding: 0.5px;
+    text-decoration: none;
+}
+
+.link-map:hover {
+    font-size: 25px;
+    border-bottom: 1.1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************************************************************************
+                                        MEDIA
+*******************************************************************************************************************/
+
+
+/* PC */
+@media (min-width: 768px) {
+    .bg-nav {
+        background: 0;
+    }
+}
