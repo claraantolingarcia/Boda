@@ -1,0 +1,23 @@
+.bg-place{
+    background-image: url('../assets/images/image-place-mini.jpg');
+    opacity: 0.6;
+}
+
+.info-place {
+    font-size: 40px;
+    text-align: justify;
+    width: 50%;
+    padding: 3%;
+    padding-top: 5%;
+}
+
+.link-map {
+    font-size: 25px;
+    padding: 0.5px;
+    text-decoration: none;
+}
+
+.link-map:hover {
+    font-size: 25px;
+    border-bottom: 1.1px solid;
+}
